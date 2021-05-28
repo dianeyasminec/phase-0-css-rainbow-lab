@@ -1,10 +1,25 @@
-div { id="red":#f00>;
-   id="orange":#ffa500>
-    div id="yellow":#ff0>
-      div id="green":#00bc3f>
-        div id="blue":#06f>
-          div id="indigo":#8a2be2>
-           id="violet":#d300c9>
+#red{
+  border-top-color: #f00;
+}
+#orange{
+  border-top-color: #ffa500;
+}
+#yellow{
+  border-top-color: #ff0;
+}
+#green{
+  border-top-color: #00bc3f;
+}
+#blue{
+  border-top-color: #06f;
+}
+#indigo{
+  border-top-color: #8a2be2;
+}
+#violet{
+  border-top-color: #d300c9;
+}
+div { 
   border: 20px solid #000; /* this is short hand for setting
                             the border's width, its type, and color */
   display: inline-block; /* a way of positioning elements */
